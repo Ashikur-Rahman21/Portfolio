@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HeroSectionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -19,6 +20,9 @@ Route::get('/contact', function () {
 })->name('contact');
 
 
-Route::get('/login', function(){
-    return view('auth.login');
-});
+Route::get('/admin/home', function () {
+    return view('backend.home');
+})->name('admin.home');
+
+
+Route::resource('hero-section', HeroSectionController::class);
