@@ -13,8 +13,8 @@ class AboutSectionController extends Controller
      */
     public function index()
     {
-        $aboutSection = AboutSection::all();
-        return view('backend.aboutSection.index', compact('aboutSection'));
+        $aboutSections = AboutSection::all();
+        return view('backend.aboutSection.index', compact('aboutSections'));
     }
 
     /**

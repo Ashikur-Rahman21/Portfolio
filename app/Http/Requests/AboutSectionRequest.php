@@ -11,7 +11,7 @@ class AboutSectionRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -29,8 +29,9 @@ class AboutSectionRequest extends FormRequest
             'twitter' => 'url|max:255',
             'linkedin' => 'url|max:255',
             'github' => 'url|max:255',
-            'about_me' => 'string',
-            'history' => 'string',
+            'about_me' => 'required|string',
+            'history' => 'required|string',
+            'image' => 'string'|'nullable',
         ];
     }
 }

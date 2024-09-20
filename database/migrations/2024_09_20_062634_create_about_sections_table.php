@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('github');
             $table->text('about_me');
             $table->longText('history');
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
