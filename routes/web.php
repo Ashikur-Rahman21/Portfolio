@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HeroSectionController;
 use App\Http\Controllers\AboutSectionController;
+use App\Http\Controllers\SkillSectionController;
 
 Route::get('/', function () {
     return view('frontend.home');
@@ -28,3 +29,4 @@ Route::get('/admin/home', function () {
 
 Route::resource('hero-section', HeroSectionController::class);
 Route::resource('about-section', AboutSectionController::class);
+Route::resource('skill-section', SkillSectionController::class);
