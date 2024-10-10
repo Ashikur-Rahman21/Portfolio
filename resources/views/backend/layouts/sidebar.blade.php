@@ -19,7 +19,7 @@
             <a href="{{ route('hero-section.index') }}" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Hero Section</a>
             <a href="{{ route('about-section.index') }}" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>About Section</a>
             <a href="{{ route('skill-section.index') }}" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Skill Section</a>
-            
+            <a href="{{ route('education-section.index') }}" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Education Section</a>            
         </div>
     </nav>
 </div>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EducationController;
 use App\Http\Controllers\HeroSectionController;
 use App\Http\Controllers\AboutSectionController;
 use App\Http\Controllers\SkillSectionController;
@@ -30,3 +31,4 @@ Route::get('/admin/home', function () {
 Route::resource('hero-section', HeroSectionController::class);
 Route::resource('about-section', AboutSectionController::class);
 Route::resource('skill-section', SkillSectionController::class);
+Route::resource('education-section', EducationController::class);
