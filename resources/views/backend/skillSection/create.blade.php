@@ -30,17 +30,6 @@
                     @enderror
                 </div>
 
-                <div class="form-group mb-3">
-                    <label for="title">Title</label>
-                    <input type="text" class="form-control rounded-pill" id="title" name="title"
-                        placeholder="Enter your title">
-                    @error('title')
-                        <p class="text-danger">
-                            {{ $message }}
-                        </p>
-                    @enderror
-                </div>
-
                 <div class="text-center">
                     <a href="{{ route('skill-section.index') }}"
                         class="btn btn-danger btn-lg rounded-pill px-4 py-2">Cancel</a>

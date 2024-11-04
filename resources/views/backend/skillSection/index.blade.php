@@ -8,7 +8,6 @@
                 <tr>
                     <th class="text-break">Name</th>
                     <th class="text-break">Percentage</th>
-                    <th class="text-break">Title</th>
                     <th class="text-break">Action</th>
                 </tr>
             </thead>
@@ -17,7 +16,6 @@
                     <tr>
                         <td class="text-break">{{ $skillSection->name }}</td>
                         <td class="text-break">{{ $skillSection->percentage }}</td>
-                        <td class="text-break">{{ $skillSection->title }}</td>
                         <td class="text-break d-flex">
                             <a href="{{ route('skill-section.edit', $skillSection->id) }}"
                                 class="btn btn-success me-2 rounded-2 text-black"><i class="fa fa-edit"></i></a>

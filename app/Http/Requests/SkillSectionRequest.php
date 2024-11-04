@@ -22,7 +22,6 @@ class SkillSectionRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'title' => ['required'],
             'name' => ['required'],
             'percentage' => ['required', 'Integer']
         ];

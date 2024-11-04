@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('skill_sections', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
             $table->string('name');
             $table->string('percentage');
             $table->timestamps();

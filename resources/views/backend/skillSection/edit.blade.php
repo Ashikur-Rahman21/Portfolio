@@ -27,15 +27,6 @@
                         </p>
                     @enderror
                 </div>
-                <div class="form-group mb-3">
-                    <label for="title">Title</label>
-                    <input type="text" class="form-control rounded-pill" id="title" name="title" value="{{ old('title', $skillSection->title) }}">
-                    @error('title')
-                        <p class="text-danger">
-                            {{ $message }}
-                        </p>
-                    @enderror
-                </div>
                 
                 <div class="text-center">
                     <a href="{{ route('skill-section.index') }}"
