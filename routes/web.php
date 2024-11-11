@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\EducationController;
 use App\Http\Controllers\ExperienceController;
 use App\Http\Controllers\HeroSectionController;
@@ -34,3 +35,4 @@ Route::resource('about-section', AboutSectionController::class);
 Route::resource('skill-section', SkillSectionController::class);
 Route::resource('education-section', EducationController::class);
 Route::resource('experience-section', ExperienceController::class);
+Route::resource('service-section', ServiceController::class);
