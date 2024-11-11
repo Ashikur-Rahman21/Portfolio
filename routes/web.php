@@ -7,6 +7,7 @@ use App\Http\Controllers\ExperienceController;
 use App\Http\Controllers\HeroSectionController;
 use App\Http\Controllers\AboutSectionController;
 use App\Http\Controllers\SkillSectionController;
+use App\Http\Controllers\PortfolioSectionController;
 
 Route::get('/', function () {
     return view('frontend.home');
@@ -36,3 +37,4 @@ Route::resource('skill-section', SkillSectionController::class);
 Route::resource('education-section', EducationController::class);
 Route::resource('experience-section', ExperienceController::class);
 Route::resource('service-section', ServiceController::class);
+Route::resource('portfolio-section', PortfolioSectionController::class);

@@ -22,6 +22,7 @@
             <a href="{{ route('education-section.index') }}" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Education Section</a>            
             <a href="{{ route('experience-section.index') }}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Experience Section</a>            
             <a href="{{ route('service-section.index') }}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Service Section</a>            
+            <a href="{{ route('portfolio-section.index') }}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Portfolio Section</a>            
         </div>
     </nav>
 </div>
